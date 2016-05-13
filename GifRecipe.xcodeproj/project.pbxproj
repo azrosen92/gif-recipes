@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07333DD81CE69841000945CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07333DD71CE69841000945CB /* AppDelegate.swift */; };
+		07333DDA1CE69841000945CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07333DD91CE69841000945CB /* ViewController.swift */; };
+		07333DDD1CE69841000945CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07333DDB1CE69841000945CB /* Main.storyboard */; };
+		07333DDF1CE69841000945CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07333DDE1CE69841000945CB /* Assets.xcassets */; };
+		07333DE21CE69841000945CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07333DE01CE69841000945CB /* LaunchScreen.storyboard */; };
+		07333DED1CE69841000945CB /* GifRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07333DEC1CE69841000945CB /* GifRecipeTests.swift */; };
+		07333DF81CE69841000945CB /* GifRecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07333DF71CE69841000945CB /* GifRecipeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07333DE91CE69841000945CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07333DCC1CE69841000945CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07333DD31CE69841000945CB;
+			remoteInfo = GifRecipe;
+		};
+		07333DF41CE69841000945CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07333DCC1CE69841000945CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07333DD31CE69841000945CB;
+			remoteInfo = GifRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07333DD41CE69841000945CB /* GifRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07333DD71CE69841000945CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07333DD91CE69841000945CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07333DDC1CE69841000945CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07333DDE1CE69841000945CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07333DE11CE69841000945CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07333DE31CE69841000945CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07333DE81CE69841000945CB /* GifRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07333DEC1CE69841000945CB /* GifRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifRecipeTests.swift; sourceTree = "<group>"; };
+		07333DEE1CE69841000945CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07333DF31CE69841000945CB /* GifRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07333DF71CE69841000945CB /* GifRecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifRecipeUITests.swift; sourceTree = "<group>"; };
+		07333DF91CE69841000945CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07333DD11CE69841000945CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DE51CE69841000945CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DF01CE69841000945CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07333DCB1CE69841000945CB = {
+			isa = PBXGroup;
+			children = (
+				07333DD61CE69841000945CB /* GifRecipe */,
+				07333DEB1CE69841000945CB /* GifRecipeTests */,
+				07333DF61CE69841000945CB /* GifRecipeUITests */,
+				07333DD51CE69841000945CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07333DD51CE69841000945CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07333DD41CE69841000945CB /* GifRecipe.app */,
+				07333DE81CE69841000945CB /* GifRecipeTests.xctest */,
+				07333DF31CE69841000945CB /* GifRecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07333DD61CE69841000945CB /* GifRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				07333DD71CE69841000945CB /* AppDelegate.swift */,
+				07333DD91CE69841000945CB /* ViewController.swift */,
+				07333DDB1CE69841000945CB /* Main.storyboard */,
+				07333DDE1CE69841000945CB /* Assets.xcassets */,
+				07333DE01CE69841000945CB /* LaunchScreen.storyboard */,
+				07333DE31CE69841000945CB /* Info.plist */,
+			);
+			path = GifRecipe;
+			sourceTree = "<group>";
+		};
+		07333DEB1CE69841000945CB /* GifRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				07333DEC1CE69841000945CB /* GifRecipeTests.swift */,
+				07333DEE1CE69841000945CB /* Info.plist */,
+			);
+			path = GifRecipeTests;
+			sourceTree = "<group>";
+		};
+		07333DF61CE69841000945CB /* GifRecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07333DF71CE69841000945CB /* GifRecipeUITests.swift */,
+				07333DF91CE69841000945CB /* Info.plist */,
+			);
+			path = GifRecipeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07333DD31CE69841000945CB /* GifRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07333DFC1CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipe" */;
+			buildPhases = (
+				07333DD01CE69841000945CB /* Sources */,
+				07333DD11CE69841000945CB /* Frameworks */,
+				07333DD21CE69841000945CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifRecipe;
+			productName = GifRecipe;
+			productReference = 07333DD41CE69841000945CB /* GifRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07333DE71CE69841000945CB /* GifRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07333DFF1CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipeTests" */;
+			buildPhases = (
+				07333DE41CE69841000945CB /* Sources */,
+				07333DE51CE69841000945CB /* Frameworks */,
+				07333DE61CE69841000945CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07333DEA1CE69841000945CB /* PBXTargetDependency */,
+			);
+			name = GifRecipeTests;
+			productName = GifRecipeTests;
+			productReference = 07333DE81CE69841000945CB /* GifRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07333DF21CE69841000945CB /* GifRecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07333E021CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipeUITests" */;
+			buildPhases = (
+				07333DEF1CE69841000945CB /* Sources */,
+				07333DF01CE69841000945CB /* Frameworks */,
+				07333DF11CE69841000945CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07333DF51CE69841000945CB /* PBXTargetDependency */,
+			);
+			name = GifRecipeUITests;
+			productName = GifRecipeUITests;
+			productReference = 07333DF31CE69841000945CB /* GifRecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07333DCC1CE69841000945CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaron Rosen";
+				TargetAttributes = {
+					07333DD31CE69841000945CB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					07333DE71CE69841000945CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07333DD31CE69841000945CB;
+					};
+					07333DF21CE69841000945CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07333DD31CE69841000945CB;
+					};
+				};
+			};
+			buildConfigurationList = 07333DCF1CE69841000945CB /* Build configuration list for PBXProject "GifRecipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07333DCB1CE69841000945CB;
+			productRefGroup = 07333DD51CE69841000945CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07333DD31CE69841000945CB /* GifRecipe */,
+				07333DE71CE69841000945CB /* GifRecipeTests */,
+				07333DF21CE69841000945CB /* GifRecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07333DD21CE69841000945CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07333DE21CE69841000945CB /* LaunchScreen.storyboard in Resources */,
+				07333DDF1CE69841000945CB /* Assets.xcassets in Resources */,
+				07333DDD1CE69841000945CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DE61CE69841000945CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DF11CE69841000945CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07333DD01CE69841000945CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07333DDA1CE69841000945CB /* ViewController.swift in Sources */,
+				07333DD81CE69841000945CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DE41CE69841000945CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07333DED1CE69841000945CB /* GifRecipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07333DEF1CE69841000945CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07333DF81CE69841000945CB /* GifRecipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07333DEA1CE69841000945CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07333DD31CE69841000945CB /* GifRecipe */;
+			targetProxy = 07333DE91CE69841000945CB /* PBXContainerItemProxy */;
+		};
+		07333DF51CE69841000945CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07333DD31CE69841000945CB /* GifRecipe */;
+			targetProxy = 07333DF41CE69841000945CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07333DDB1CE69841000945CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07333DDC1CE69841000945CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07333DE01CE69841000945CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07333DE11CE69841000945CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07333DFA1CE69841000945CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07333DFB1CE69841000945CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07333DFD1CE69841000945CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07333DFE1CE69841000945CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07333E001CE69841000945CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifRecipe.app/GifRecipe";
+			};
+			name = Debug;
+		};
+		07333E011CE69841000945CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifRecipe.app/GifRecipe";
+			};
+			name = Release;
+		};
+		07333E031CE69841000945CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifRecipe;
+			};
+			name = Debug;
+		};
+		07333E041CE69841000945CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azrosen.GifRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifRecipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07333DCF1CE69841000945CB /* Build configuration list for PBXProject "GifRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07333DFA1CE69841000945CB /* Debug */,
+				07333DFB1CE69841000945CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07333DFC1CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07333DFD1CE69841000945CB /* Debug */,
+				07333DFE1CE69841000945CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07333DFF1CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07333E001CE69841000945CB /* Debug */,
+				07333E011CE69841000945CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07333E021CE69841000945CB /* Build configuration list for PBXNativeTarget "GifRecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07333E031CE69841000945CB /* Debug */,
+				07333E041CE69841000945CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07333DCC1CE69841000945CB /* Project object */;
+}
